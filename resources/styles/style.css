@@ -1,0 +1,74 @@
+header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    margin-right: 20px;
+}
+header nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+}
+body{
+    background-color: floralwhite;
+}
+
+.content{
+    display: flex;
+}
+
+.nav-pills .nav-item{
+    color: #ffac89;
+}
+
+.content .sidebar{
+    padding: 30px 70px;
+    max-width: 400px;
+    background-color: #ffac89;
+
+}
+
+h1{
+    color: #ffac89;
+
+}
+
+
+table td{
+    padding: 25px;
+}
+table tr{
+    margin-bottom: 15px ;
+}
+
+.content .sidebar nav li{
+    list-style-type: none;
+    margin: 20px;
+}
+.content .myInfo{
+    width: 65%;
+    padding: 25px;
+}
+
+
+footer{
+    text-align: center;
+}
+footer a{
+    margin: 20px;
+}
+
+.nav-pills > li > a.active {
+    background-color: #ffac89 !important;
+    color: #ffffff !important;
+}
+
+.nav-pills > li > a:hover {
+    color: #ff763b !important;
+}
+
+.nav-link-color {
+    color: #ffffff;
+}
